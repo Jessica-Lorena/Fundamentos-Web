@@ -1,0 +1,47 @@
+/*Estilos da página index.html*/
+.center, h3 {
+    text-align:center;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li {
+    display: inline;
+    padding: 20px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+#menu li a:hover {
+    color: blue;
+}
+
+.p-30 {
+    padding: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.tm-social {
+    width:50px;
+    height:50px;
+}
+
+.m-50 {
+    margin: 50px;
+}
+
+/*Estilos da página index.html*/
