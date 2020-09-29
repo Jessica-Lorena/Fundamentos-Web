@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <!-- Meta tags Obrigatórias -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+        <title>Undertale</title>
+        <style>
+            html {
+                scroll-behavior: smooth;
+            }
+            
+            .tm-social {
+                width: 50px;
+                height: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <!--Navbar-Menu-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top"><!--topo fixado-->
+            <a class="navbar-brand text-primary" href="index.html">Undertale</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-primary" href="index.html#carouselExampleIndicators">Home <span class="sr-only">(página atual)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="index.html#historia">História</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-primary" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Personagens
+                        </a>
+                        <div class="dropdown-menu text-primary bg-light" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item text-primary bg-light" href="personagens.html#flowey">Flowey</a>
+                            <a class="dropdown-item text-primary bg-light" href="personagens.html#toriel">Toriel</a>
+                            <a class="dropdown-item text-primary bg-light" href="personagens.html#sans">Sans</a>
+                            <a class="dropdown-item text-primary bg-light" href="personagens.html#papyrus">Papyrus</a>
+                            <a class="dropdown-item text-primary bg-light" href="personagens.html#undyne">Undyne</a>
+                            <a class="dropdown-item text-primary bg-light" href="personagens.html#alphys">Alphys</a>
+                            <a class="dropdown-item text-primary bg-light" href="personagens.html#mettaton">Mettaton</a>
+                            <a class="dropdown-item text-primary bg-light" href="personagens.html#asgore">Asgore</a>
+                            <a class="dropdown-item text-primary bg-light" href="personagens.html#frisk">Frisk</a>
+                            <a class="dropdown-item text-primary bg-light" href="personagens.html#chara">Chara</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-primary" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Mini-Bosses
+                        </a>
+                        <div class="dropdown-menu text-primary bg-light" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item text-primary bg-light" href="miniBosses.html#muffet">Muffet</a>
+                            <a class="dropdown-item text-primary bg-light" href="miniBosses.html#napstablook">Napstablook</a>
+                            <a class="dropdown-item text-primary bg-light" href="miniBosses.html#boboneco">Boboneco Doido</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-primary" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Finais
+                        </a>
+                        <div class="dropdown-menu text-primary bg-light" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item text-primary bg-light" href="finais.html#pacifista">Rota Pacifista</a>
+                            <a class="dropdown-item text-primary bg-light" href="finais.html#genocida">Rota Genocida</a>
+                            <a class="dropdown-item text-primary bg-light" href="finais.html#neutral">Rota Neutral</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-primary" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Cenários
+                        </a>
+                        <div class="dropdown-menu text-primary bg-light" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item text-primary bg-light" href="#cachoeira">Cachoeira</a>
+                            <a class="dropdown-item text-primary bg-light" href="#teraquente">Teraquente</a>
+                            <a class="dropdown-item text-primary bg-light" href="#nevada">Nevada</a>
+                            <a class="dropdown-item text-primary bg-light" href="#ruinas">Ruinas</a>
+                            <a class="dropdown-item text-primary bg-light" href="#core">Core</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="formulario.html">Contato</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2 border border-primary" type="search" placeholder="Buscar" aria-label="Pesquisar">
+                    <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Buscar</button>
+                </form>
+            </div>
+        </nav>
+        <!--/Navbar-Menu-->
+        <!--Jumbotron-->
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-12">
+                        <h1 class="display-4">Cenários</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron jumbotron-fluid" id="cachoeira">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-12">
+                        <h1 class="display-4">Cachoeira</h1>
+                        <p class="lead">Cachoeira é uma localização em Undertale. É o terceiro local explorável do jogo.</p>
+                        <p class="lead">Cachoeira é a terceira área onde o protagonista encontra. A área é acessível após o protagonista derrotar Papyrus em uma luta. A área segue Floresta de Nevada e Cidade de Nevada e termina em Teraquente.</p>
+                        <p class="lead">Cachoeira é uma caverna cheia de rios, cachoeiras e muita água. Graças a isso, Undyne mora lá. Napstablook e Mettaton também moram lá. Em alguns momentos chove. Quando o protagonista entra na cachoeira, é possível ver um bloco de gelo enorme navegando pelo rio. Esse gelo vai até o Núcleo (CORE) para resfriá-lo. Lá é revelado um pouco do passado de Asriel e Chara. Na Cachoeira estão presentes alguns quebra-cabeças e alguns segredos.</p>
+                    </div>
+                </div>
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-12">
+                    <img src="assets/img/cachoeira.jpg" alt="cachoeira" class="rounded">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron jumbotron-fluid" id="teraquente">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-12">
+                        <h1 class="display-4">Teraquente</h1>
+                        <p class="lead">Teraquente é a quarta região em que o protagonista encontra em Undertale, seguindo da Cachoeira. Ele contém locais como Laboratório de Alphys, Recanto MTT, e o Núcleo (CORE).</p>
+                        <p class="lead">Teraquente é um local cheio de lava e calor, como o próprio nome diz é um lugar quente. Depois que se atravessa a ponte que liga Cachoeira e Teraquente, há um bebedouro do outro lado. Alphys colocou esse bebedouro exclusivamente para Undyne. Há vários quebra-cabeças. Guardas Reais enviados por Undyne patrulham certos corredores de Teraquente à procura de humanos.</p>
+                        <p class="lead">Há elevadores que levam a diversos lugares da região. Alguns moradores de Teraquente sofrem por causa dos quebra-cabeças, pois para eles, é muito complicado resolvê-los.</p>
+                    </div>
+                </div>
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-12">
+                    <img src="assets/img/teraquente.jpg" alt="teraquente" class="rounded">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron jumbotron-fluid" id="nevada">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-12">
+                        <h1 class="display-4">Nevada</h1>
+                        <p class="lead">Nevada é uma floresta nevada que o protagonista encontra depois que ele deixa as ruínas. Em Nevada há numerosos membros da Guarda Real, incluindo Sans e os membros caninos, presumivelmente porque os vizinhos da cidade dão a entrada para o subterrâneo, onde os seres humanos caem. A saída da cidade leva o protagonista à Cachoeira a pé, ou pega carona com o barqueiro, para Cachoeira ou Teraquente.</p>
+                        <p class="lead">Apesar de ser subterrâneo, Nevada está coberta de uma camada permanente de gelo e neve e, por causa do frio que os monstros usam roupas grossas. Esqueletos não recebem frio por não terem pele.</p>
+                        <p class="lead">Nevada é cheio de neve e gelo, com várias árvores em toda parte da região. O protagonista sai das ruínas e começa na floresta de Nevada, onde conhece os irmãos Sans e Papyrus. Depois de resolver vários quebra-cabeças e derrotar os cães da Guarda Real, o protagonista chega na cidade, onde há vários NPCs. Uma cidade amigável e um bom lugar para se morar, a não ser pelo frio de Nevada, o qual Undyne não suporta.</p>
+                    </div>
+                </div>
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-12">
+                    <img src="assets/img/nevada.jpg" alt="nevada" class="rounded">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron jumbotron-fluid" id="ruinas">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-12">
+                        <h1 class="display-4">Ruinas</h1>
+                        <p class="lead">As Ruínas é o local onde o Undertale demo é jogado, bem como a área de tutorial principal do jogo. O protagonista cai nas Ruínas por um buraco gigante antes do início do jogo. Toriel, uma comunidade de aranhas e muitos outros monstros fazem suas casas aqui. É nesse local onde se pode encontrar Flowey pela primeira vez.</p>
+                        <p class="lead">Há muitos quebra-cabeças e armadilhas dentro das Ruínas, bem como um excesso de folhas vermelhas e videiras que estão espalhados por toda a área. Um pequeno rio atravessa as ruínas, e o chão escuro caracteriza-se por pequenas manchas de folhas vermelhas. Apesar da abundância de plantas nas Ruínas, apenas uma única árvore cresce aqui, que é encontrada perto da casa de Toriel.</p>
+                    </div>
+                </div>
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-12">
+                    <img src="assets/img/ruinas.jpg" alt="ruinas" class="rounded">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron jumbotron-fluid" id="core">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-12">
+                        <h1 class="display-4">Core</h1>
+                        <p class="lead">O núcleo (CORE) é uma sub-região de Teraquente, encontrado após o Recanto MTT, ligando o resto de Teraquente à Nova Casa. Há um elevador para o Castelo de Asgore no centro do Núcleo.</p>
+                        <p class="lead">É uma instalação tecnologicamente avançada, que fornece eletricidade mágica para o Subsolo. Toda a estrutura do Núcleo foi projetada para que os quartos no interior possam mudar de posição e o layout possa ser alterado, a fim de fazer o protagonista se perder. O Núcleo é resfriado por gelo enviado de Snowdin (pelo Lobo do Gelo), que passa pela Cachoeira (Waterfall) e vai para o reservatório de magma do Núcleo e assim o resfria. O vapor liberado pelo gelo sai do Núcleo por bueiros de vapor com setas (aqueles que você usa para ir de um lugar a outro em Teraquente). Na vista do Núcleo, Alphys diz, pelo telefone, que o Núcleo converte energia geotérmica em eletricidade mágica.</p>
+                    </div>
+                </div>
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-12">
+                    <img src="assets/img/core.jpg" alt="core" class="rounded">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/Junbotron-->
+
+        <!--Footer-->
+        <hr>
+        <footer>
+            <div class="container">
+                <div class= "row justify-content-md-center align-items-center m-3">
+                    <div class="col-md-auto">
+                        <a href="https://store.steampowered.com/app/391540/Undertale/" target="_blank">
+                            <img class="tm-social p-30" src="assets/img/steam.png" alt="Logo da Steam">
+                        </a>
+                    </div>
+                    <div class="col-md-auto">
+                        <a href="https://store.steampowered.com/app/391540/Undertale/" class="btn btn-outline-primary" target="_blank">
+                            Clique aqui para comprar o jogo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--/Footer-->
+
+        <!-- JavaScript (Opcional) -->
+        <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>

@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <!-- Meta tags Obrigatórias -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+        <title>Undertale</title>
+        <style>
+            html {
+                scroll-behavior: smooth;
+            }
+            
+            .tm-social {
+                width: 50px;
+                height: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <!--Navbar-Menu-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top"><!--topo fixado-->
+            <a class="navbar-brand text-primary" href="index.html">Undertale</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-primary" href="index.html#carouselExampleIndicators">Home <span class="sr-only">(página atual)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="index.html#historia">História</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-primary" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Personagens
+                        </a>
+                        <div class="dropdown-menu text-primary bg-light" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item text-primary bg-light" href="#flowey">Flowey</a>
+                            <a class="dropdown-item text-primary bg-light" href="#toriel">Toriel</a>
+                            <a class="dropdown-item text-primary bg-light" href="#sans">Sans</a>
+                            <a class="dropdown-item text-primary bg-light" href="#papyrus">Papyrus</a>
+                            <a class="dropdown-item text-primary bg-light" href="#undyne">Undyne</a>
+                            <a class="dropdown-item text-primary bg-light" href="#alphys">Alphys</a>
+                            <a class="dropdown-item text-primary bg-light" href="#mettaton">Mettaton</a>
+                            <a class="dropdown-item text-primary bg-light" href="#asgore">Asgore</a>
+                            <a class="dropdown-item text-primary bg-light" href="#frisk">Frisk</a>
+                            <a class="dropdown-item text-primary bg-light" href="#chara">Chara</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-primary" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Mini-Bosses
+                        </a>
+                        <div class="dropdown-menu text-primary bg-light" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item text-primary bg-light" href="miniBosses.html#muffet">Muffet</a>
+                            <a class="dropdown-item text-primary bg-light" href="miniBosses.html#napstablook">Napstablook</a>
+                            <a class="dropdown-item text-primary bg-light" href="miniBosses.html#boboneco">Boboneco Doido</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-primary" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Finais
+                        </a>
+                        <div class="dropdown-menu text-primary bg-light" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item text-primary bg-light" href="finais.html#pacifista">Rota Pacifista</a>
+                            <a class="dropdown-item text-primary bg-light" href="finais.html#genocida">Rota Genocida</a>
+                            <a class="dropdown-item text-primary bg-light" href="finais.html#neutral">Rota Neutral</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-primary" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Cenários
+                        </a>
+                        <div class="dropdown-menu text-primary bg-light" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item text-primary bg-light" href="cenarios.html#cachoeira">Cachoeira</a>
+                            <a class="dropdown-item text-primary bg-light" href="cenarios.html#teraquente">Teraquente</a>
+                            <a class="dropdown-item text-primary bg-light" href="cenarios.html#nevada">Nevada</a>
+                            <a class="dropdown-item text-primary bg-light" href="cenarios.html#ruinas">Ruinas</a>
+                            <a class="dropdown-item text-primary bg-light" href="cenarios.html#core">Core</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="formulario.html">Contato</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2 border border-primary" type="search" placeholder="Buscar" aria-label="Pesquisar">
+                    <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Buscar</button>
+                </form>
+            </div>
+        </nav>
+        <!--/Navbar-Menu-->
+        <!--Jumbotron-->
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-12">
+                        <h1 class="display-4">Personagens</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron jumbotron-fluid" id="flowey">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-7">
+                        <h1 class="display-4">Flowey</h1>
+                        <p class="lead">Flowey é o primeiro personagem que o jogador encontra em Undertale.</p>
+                        <p class="lead">Ele faz uma introdução ás mecânicas de batalha compartilhando "balinhas da amizade" ou "pétalas da amizade", que são na verdade dardos que machucam o protagonista.</p>
+                        <p class="lead">Ele tenta enganar o protagonista para que ele vire violento enquanto prossegue em sua jornada pelas ruínas.</p>
+                        <p class="lead">Flowey tem a aparência de uma flor dourada (a mesma encontrada em diversas áreas do jogo como na Sala do Trono), com pétalas douradas e um rosto no centro da flor.</p>
+                        <p class="lead">O rosto de Flowey se modifica de forma constante, indo de um rosto alegre até uma expressão assustadora e  alucinada. A aparência de Flowey se modifica muito quando ele se transforma em Omega Flowey, no fim da Rota Neutra ou da Rota Pacifista, se ele estiver vivo no começo do jogo.</p>
+                    </div>
+                    <div class="col-md-5">
+                    <img src="assets/img/flowey.jpg" alt="flowey" class="rounded">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron jumbotron-fluid" id="toriel">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-7">
+                        <h1 class="display-4">Toriel</h1>
+                        <p class="lead">Toriel é o segundo personagem encontrado em Undertale.</p>
+                        <p class="lead">Ela salva o protagonista de Flowey, e o orienta através das Ruínas, guiando até sua nova casa.</p>
+                        <p class="lead">Toriel tem uma aparência muito parecida com a de Asgore e Asriel, se assemelhando um pouco a uma cabra, com orelhas caídas e chifres curtos. Parte de suas presas são visíveis e seus olhos são vermelho claro. Toriel veste uma túnica azul que possui a Runa Delta no centro.</p>
+                    </div>
+                    <div class="col-md-5">
+                    <img src="assets/img/toriel.jpg" alt="toriel" class="rounded">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron jumbotron-fluid" id="sans">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-7">
+                        <h1 class="display-4">Sans</h1>
+                        <h4>Rota Pacifista Verdadeiro</h4>
+                        <p class="lead">Sans está ausente do corredor na Rota Pacifista. Também não há ponto de determinação de save ou a caixa ao entrar no corredor. Ele aparece durante a cena pré-Asriel e vê Toriel cara-a-cara pela primeira vez.</p>
+                        <p class="lead">Flowey prende Sans e os outros amigos do protagonista. No entanto, Sans e os outros amigos do protagonista protege dos ataques de Flowey antes de ele absorver suas almas.</p>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="assets/img/sansp.jpg" alt="sans" class="rounded">
+                    </div>
+                </div>
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-7">
+                        <h4>Rota Genocida</h4>
+                        <p class="lead">Logo depois de sair das Ruínas, em Snowdin, onde ele aparece pela primeira vez, desta vez vem com diálogos diferentes, nesta rota, você não liga para as opiniões do Sans (Exemplo: Quando ele pede para você ir para atrás do abajur, você ignora ele), ele avisa que a rota é perigosa, como Toriel diz no começo da rota, depois disso, Sans fica ausente até você passar e dar as caras com Sans no julgamento.</p>
+                        <p class="lead">No julgamento, o protagonista realmente luta com Sans, que possui ataques realmente desafiantes, o que torna difícil para o jogador ganhar a batalha. Ele é o único monstro que desvia, controla a gravidade e se teletransporta.</p>
+                        <p class="lead">No fim da batalha, Sans tem uma morte trágica, e embora ninguém imaginasse, Sans sangra para que a cena se torne mais triste, e para tornar a cena mais dramática quando Sans diz que vai pro Grillby's, e pergunta se o Papyrus (que na rota genocida já está morto) quer alguma coisa, o que deixa tudo mais triste.</p>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="assets/img/sansg.jpg" alt="sans" class="rounded">
+                    </div>
+                </div>
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-7">
+                        <h4>Rota Neutra/Pacifista</h4>
+                        <p class="lead">Sem acrescentar final feliz, Sans nesta rota, começa em Snowdin também, como vigia da floresta, espera algum humano chegar. Quando você chega no portão de Papyrus, você-o conhece, fazendo você sempre se esconder de seu irmão, quando Sans te apresenta para Papyrus, o chamando de Paps (apelido), que confunde o jogador com uma pedra, mas Sans mostra onde você está, e você tem que passar pelos quebra-cabeças de Papyrus. Sans só aparece algumas vezes perto dos quebra-cabeças, fazendo nada, e algumas vezes em outros lugares.</p>
+                        <p class="lead">Depois de chegar em sua barraca de Hot-Dog, ele ficará ausente até você chegar no julgamento. Neste momento, no julgamento, Sans irá te julgar por ter matado monstros, se você não matar ninguém, ele não te julgará, se você matar alguém (não sendo o Papyrus), ele deixará o resto em suas mãos, não te julgando. Caso você tenha matado Papyrus, ele vai te deixar passar e deixará o resto com você também, mas no final de sua conversa, irá perguntar coisas sérias, relacionadas a morte de seu irmão, e na sua final frase da conversa, irá te chamar de "Assassino Sujo de Irmão", por ter matado Papyrus.</p>
+                        <p class="lead">Caso o jogador não tenha matado nenhum monstro (rota pacifista verdadeira), Sans considerará o protagonista como um bom amigo.</p>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="assets/img/sansn.jpg" alt="sans" class="rounded">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron jumbotron-fluid" id="papyrus">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-7">
+                        <h1 class="display-4">Papyrus</h1>
+                        <p class="lead">Papyrus (o nome Papyrus é uma referência a fonte de mesmo nome Papyrus, cuja ele usa em letra maiúscula) é o irmão mais novo de Sans, sendo o segundo Monstro Chefe do jogo. Ele deseja capturar um humano para se tornar membro da Guarda Real e ser reconhecido. Seu primeiro encontro é na chegada de Snowdin onde o encontramos junto ao seu irmão Sans.</p>
+                        <p class="lead">Papyrus é um esqueleto possivelmente alto, sem pupilas, que está normalmente sorrindo (quase sem alterar sua expressão facial) e que veste uma capa, luvas e botas vermelhas, ele também veste algo parecido com uma sunga azul claro. Papyrus também possui variações em suas vestimentas, sendo elas a "Cara Legal", onde ele veste uma camisa, um boné, um shorts e um par de tênis, e a "Jog Boy", onde ele veste suas botas e sua capa, um shorts, uma camisa e uma faixa na cabeça.</p>
+                    </div>
+                    <div class="col-md-5">
+                    <img src="assets/img/papyrus.jpg" alt="papyrus" class="rounded">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron jumbotron-fluid" id="undyne">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-7">
+                        <h1 class="display-4">Undyne</h1>
+                        <p class="lead">Undyne é um monstro parecido com um peixe que é líder da Guarda Real. Vestida em sua armadura, ela persegue o humano através da Cachoeira, frequentemente interrompida ou inadvertidamente frustrada por Monstrinho.</p>
+                        <p class="lead">Undyne é um monstro humanoide peixe, com escamas azuis e um rabo de cavalo vermelho, longo e brilhante. Ela tem nadadeiras no lado da sua cabeça e um par de dentes salientes. Ela usa um tapa-olho no seu olho esquerdo. Ela tem olhos amarelos; no entanto, quando ela está letalmente danificada, seus olhos ficam pretos. Ela veste uma camisa preta, uma calça azul escura, botas vermelho escuro com fivelas douradas, luvas azuis e sua armadura é cinza.</p>
+                    </div>
+                    <div class="col-md-5">
+                    <img src="assets/img/undyne.jpg" alt="undyne" class="rounded">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron jumbotron-fluid" id="alphys">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-7">
+                        <h1 class="display-4">Alphys</h1>
+                        <p class="lead">Dra. Alphys é um monstro lagarto fêmea que vive no laboratório em Teraquente. Ela é a atual Cientista Real, uma posição que foi concedida pelo Asgore após a aparente morte de seu antecessor, W.D. Gaster.</p>
+                        <p class="lead">Asgore contratou Alphys porque ela lhe disse que ela tinha criado uma alma, mas na realidade, ela criou um corpo robótico para um fantasma, Mettaton.</p>
+                        <p class="lead">Alphys aparenta ser um monstro reptiliano de altura similar do protagonista. Possui uma cor amarela, usa óculos e normalmente veste um jaleco branco. Ela também costuma usar um vestido preto e branco em ocasiões especiais, como em seu encontro com Frisk.</p>
+                    </div>
+                    <div class="col-md-5">
+                    <img src="assets/img/alphys.jpg" alt="alphys" class="rounded">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron jumbotron-fluid" id="mettaton">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-7">
+                        <h1 class="display-4">Mettaton</h1>
+                        <p class="lead">Mettaton é um robô (que contém uma ALMA) que foi projectado e construído por Alphys. Este robô foi criado com o propósito de entretenimento, porém acabou se tornando um robô assassino de humanos. Posteriormente Mettaton revela que ele apenas agiu como Alphys lhe pediu. Ele é a única estrela de televisão no Subsolo e por isso é muito famoso.</p>
+                        <p class="lead">Forma inicial: Nesta forma Mettaton se assemelha a uma caixa de tonalidade acinzentada, contém um conjunto de formas retangulares na sua parte superior, que mudam de cor conforme as ações de Mettaton. Ele também tem quatro mostradores na zona inferior, tem apenas uma perna com uma roda no final como forma de locomoção. Por fim, seus braços são segmentados e terminam com uma espécie de luvas brancas.</p>
+                        <p class="lead">Mettaton EX: Depois do interruptor nas suas costas ter sido ativado, o design de Mettaton é completamente redesenhado, obtendo um aspecto mais feminino/humanoide, apresentando: um cabelo médio de cor preta que cobre um dos olhos, pele pálida, braços segmentados terminando com luvas. No seu tronco contém uma parte de seu peitoral acompanhado de um botão, um conjunto de luzes e algo semelhante a um alto falante. Na sua cintura tem algo que se assemelha a um cinto e nos ombros uma espécie de protecção de coloração negra. Mais abaixo temos uma calças/leggings pretas, acabando com umas botas de salto alto cor-de-rosa. Finalmente, em seu abdome, há dentro de um recipiente de vidro seu núcleo em formato de coração rosa.</p>
+                        <p class="lead">Mettaton NEO: Se o jogador enfrentá-lo na rota genocida, o seu aspecto vai ficar semelhante mas com um visual mais apto para luta.</p>
+                    </div>
+                    <div class="col-md-5">
+                    <img src="assets/img/mettaton.jpg" alt="mettaton" class="rounded">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron jumbotron-fluid" id="asgore">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-7">
+                        <h1 class="display-4">Asgore</h1>
+                        <p class="lead">Rei Asgore Dreemurr é o governante do Subsolo e seus habitantes, monstros. Ele é o ex-marido de Toriel, pai de Asriel Dreemurr, o pai adotivo de Primeira Criança Caída e o segundo chefe final da Rota Neutra.</p>
+                        <p class="lead">Embora não seja necessariamente mau ou malicioso, ele serve como um dos principais antagonistas, tramando para matar sete humanos e usar as suas almas para quebrar a barreira que mantém os monstros no Subsolo.</p>
+                        <p class="lead">Asgore é um Monstro com aparência de um bode, com ombros largos, uma cabeleira loira e barba, e dois grandes chifres curvos. Ele veste uma armadura, uma capa roxa com espaldadeiras amarelas, e uma coroa no topo de sua cabeça; ele também ostenta uma estatura intimidante. Ele exerce um longo, vermelho-vivo tridente que ele usa na batalha.</p>
+                    </div>
+                    <div class="col-md-5">
+                    <img src="assets/img/asgore.jpg" alt="asgore" class="rounded">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron jumbotron-fluid" id="frisk">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-7">
+                        <h1 class="display-4">Frisk</h1>
+                        <p class="lead">Frisk é o personagem jogável, cujo nome só foi revelado no final da Rota Pacifista.</p>
+                        <p class="lead">É um dos Oito Humanos que entraram no subterrâneo através do buraco do Monte Ebott. Undertale documenta a viagem de Frisk das Ruínas para o castelo de Asgore, onde se encontra a barreira para que ele(a) escape.</p>
+                        <p class="lead">Frisk é representado(a) como uma criança, sendo que seu sexo é desconhecido. Ele(a) tem curtos cabelos castanhos e uma expressão neutra, vestindo uma camisa azul com duas listras cor-de-rosa, shorts na mesma cor da camiseta e sapatos marrons simples.</p>
+                        <p class="lead">Enquanto seu sprite no jogo sempre mostra esta personagem com uma expressão neutra, outros personagens nas caixas de texto indicam que ele(a) é capaz de expressar-se de maneiras diferentes. Por exemplo, quando Frisk incentiva Napstablook durante sua batalha, é dito que Frisk dá "um sorriso paciente".</p>
+                        <p class="lead">Quanto a personalidade, Frisk varia, podendo ser doce e amigável na rota pacifista e neutra e um(a) assasino(a) frio(a) na rota genocida.</p>
+                    </div>
+                    <div class="col-md-5">
+                    <img src="assets/img/frisk.jpg" alt="frisk" class="rounded">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron jumbotron-fluid" id="chara">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-7">
+                        <h1 class="display-4">Chara</h1>
+                        <p class="lead">Chara é o primeiro humano a cair no subsolo. Este é o humano que o jogador nomeia no começo do jogo, e não o personagem principal que é controlado em toda a totalidade de Undertale.</p>
+                        <p class="lead">Chara é mencionada como alguém incrívelmente semelhante à Frisk, com um "senso de moda semelhante". Ambos parecem ter a mesma idade quando caíram no subsolo. A ALMA de Chara também possui a mesma cor que o protagonista.</p>
+                        <p class="lead">No final da Rota Genocida, Chara é vista usando uma camisa verde com listras creme e calças e sapatos marrons.</p>
+                        <p class="lead">Em comparação à Frisk, Chara possui pele e cabelo mais claros, bochechas rosadas, olhos abertos e um sorriso vago que exibe uma disposição excepcionalmente ensolarada em contraste à expressão sem emoção constante de Frisk.</p>
+                        <p class="lead">Porém, em certo ponto de sua participação, Chara passa a ter um aspecto mais assustador, com o rosto derretendo formando um sorriso macabro.</p>
+                    </div>
+                    <div class="col-md-5">
+                    <img src="assets/img/chara.jpg" alt="chara" class="rounded">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/Jumbotron-->
+
+        <!--Footer-->
+        <hr>
+        <footer>
+            <div class="container">
+                <div class= "row justify-content-md-center align-items-center m-3">
+                    <div class="col-md-auto">
+                        <a href="https://store.steampowered.com/app/391540/Undertale/" target="_blank">
+                            <img class="tm-social p-30" src="assets/img/steam.png" alt="Logo da Steam">
+                        </a>
+                    </div>
+                    <div class="col-md-auto">
+                        <a href="https://store.steampowered.com/app/391540/Undertale/" class="btn btn-outline-primary" target="_blank">
+                            Clique aqui para comprar o jogo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--/Footer-->
+
+        <!-- JavaScript (Opcional) -->
+        <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>

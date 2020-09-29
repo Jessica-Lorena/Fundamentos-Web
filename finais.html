@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <!-- Meta tags Obrigatórias -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+        <title>Undertale</title>
+        <style>
+            html {
+                scroll-behavior: smooth;
+            }
+            
+            .tm-social {
+                width: 50px;
+                height: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <!--Navbar-Menu-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top"><!--topo fixado-->
+            <a class="navbar-brand text-primary" href="index.html">Undertale</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-primary" href="index.html#carouselExampleIndicators">Home <span class="sr-only">(página atual)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="index.html#historia">História</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-primary" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Personagens
+                        </a>
+                        <div class="dropdown-menu text-primary bg-light" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item text-primary bg-light" href="personagens.html#flowey">Flowey</a>
+                            <a class="dropdown-item text-primary bg-light" href="personagens.html#toriel">Toriel</a>
+                            <a class="dropdown-item text-primary bg-light" href="personagens.html#sans">Sans</a>
+                            <a class="dropdown-item text-primary bg-light" href="personagens.html#papyrus">Papyrus</a>
+                            <a class="dropdown-item text-primary bg-light" href="personagens.html#undyne">Undyne</a>
+                            <a class="dropdown-item text-primary bg-light" href="personagens.html#alphys">Alphys</a>
+                            <a class="dropdown-item text-primary bg-light" href="personagens.html#mettaton">Mettaton</a>
+                            <a class="dropdown-item text-primary bg-light" href="personagens.html#asgore">Asgore</a>
+                            <a class="dropdown-item text-primary bg-light" href="personagens.html#frisk">Frisk</a>
+                            <a class="dropdown-item text-primary bg-light" href="personagens.html#chara">Chara</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-primary" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Mini-Bosses
+                        </a>
+                        <div class="dropdown-menu text-primary bg-light" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item text-primary bg-light" href="miniBosses.html#muffet">Muffet</a>
+                            <a class="dropdown-item text-primary bg-light" href="miniBosses.html#napstablook">Napstablook</a>
+                            <a class="dropdown-item text-primary bg-light" href="miniBosses.html#boboneco">Boboneco Doido</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-primary" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Finais
+                        </a>
+                        <div class="dropdown-menu text-primary bg-light" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item text-primary bg-light" href="#pacifista">Rota Pacifista</a>
+                            <a class="dropdown-item text-primary bg-light" href="#genocida">Rota Genocida</a>
+                            <a class="dropdown-item text-primary bg-light" href="#neutral">Rota Neutral</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-primary" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Cenários
+                        </a>
+                        <div class="dropdown-menu text-primary bg-light" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item text-primary bg-light" href="cenarios.html#cachoeira">Cachoeira</a>
+                            <a class="dropdown-item text-primary bg-light" href="cenarios.html#teraquente">Teraquente</a>
+                            <a class="dropdown-item text-primary bg-light" href="cenarios.html#nevada">Nevada</a>
+                            <a class="dropdown-item text-primary bg-light" href="cenarios.html#ruinas">Ruinas</a>
+                            <a class="dropdown-item text-primary bg-light" href="cenarios.html#core">Core</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="formulario.html">Contato</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2 border border-primary" type="search" placeholder="Buscar" aria-label="Pesquisar">
+                    <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Buscar</button>
+                </form>
+            </div>
+        </nav>
+        <!--/Navbar-Menu-->
+
+        <!--Jumbotron-->
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-12">
+                        <h1 class="display-4">Finais</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron jumbotron-fluid" id="pacifista">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-12">
+                        <h1 class="display-4">Rota Pacifista</h1>
+                        <p class="lead">A Verdadeira Rota Pacifista (também conhecido como o "final feliz" por Flowey) leva a um dos finais de Undertale. Este fim pode ser considerado como o "verdadeiro final" para Undertale, levando a uma conclusão feliz e os créditos completos, que revelam quem criou cada monstro. Exemplo: Toby Fox criou o Sans.</p>
+                        <p class="lead">O verdadeiro modo pacifista se resume a não matar qualquer monstro, seja poupando-os ou fugindo da batalha. A maioria dos acontecimentos ocorre de maneira semelhante a Rota Neutra, porém alguns acontecimentos devem ser obrigatórios:</p>
+                        <p class="lead">O Jogador deve ter estabelecido amizades com os personagens principais, como Sans, Undyne e Alphys na rota neutra. Para que isso ocorra, é necessário interagir com eles. Por exemplo, caso Papyrus não tenha sido seu amigo, é necessário visitar sua casa em Snowdin e conversar com ele para que possa ser seu amigo. Também vale para Undyne, pois o jogador deve ir para sua casa em Waterfall e interagir com ela e Papyrus também, pois esse fará uso de psicologia inversa para convencer a guerreira a te conhecer melhor e, mais tarde, tornar-se sua amiga.</p>
+                        <p class="lead">Também é necessário entregar a carta à Alphys, para visitar o laboratório secreto.</p>
+                    </div>
+                </div>
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-12">
+                    <img src="assets/img/pacifista.jpg" alt="pacifista" class="rounded">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron jumbotron-fluid" id="genocida">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-12">
+                        <h1 class="display-4">Rota Genocida</h1>
+                        <p class="lead">A dificuldade do jogo é diminuída no inicio, na parte da batalha com Toriel ela morre com Hit Kill, logo depois você sai das Ruínas. É necessário matar 20 monstros para se conseguir esse final.</p>
+                        <p class="lead">Em Snowdin, a cidade fica completamente deserta com exceção de Papyrus e Sans que fazem as armadilhas, mas o protagonista não se interessa por elas. Papyrus desafia Frisk e tem o mesmo destino que Toriel, ou seja, é morto. Sans se irrita e decide se vingar do irmão no fim de sua jornada. É necessário matar 16 monstros para se conseguir o final.</p>
+                        <p class="lead">Na Cachoeira você encontra Monstrinho no meio do caminho e ele age igual a Rota Pacifista, acompanhando Frisk. No final ele descobre que o personagem é um humano e te desafia. Você ataca, mas Undyne entra na frente e recebe o golpe. Ela fica prestes a morrer, mas ela consegue resistir ao pensar em seus amigos, e ela se torna Undyne a Imortal. Você tem que desviar das setas e atacar ela. Depois de alguns ataques você consegue derrotá-la, então ela descobre que o poder novo dela não é páreo para sua determinação, mas ela morre sabendo que Alphys evacuou Teraquente e sabe que os monstros estão a salvo. É necessário matar 18 monstros para se conseguir o final.</p>
+                        <p class="lead">Ao chegar em Teraquente, Frisk vai para o laboratório de Alphys. Lá eles encontram Mettaton que foge com medo de morrer. Frisk segue o mesmo caminho da Rota Pacifista só que sem os quebra-cabeças. No meio do caminho os Guardas Reais atacam e são mortos facilmente. Quando Muffet ataca, suas falas são as mesmas da Rota Neutra e da Pacifista.Ela morre e uma aranha deixa uma flor no local em que ela morreu. O personagem segue para o Recanto MTT, o único monstro é o Atendente da Lanchonete, pois Alphys evacuou o resto. Então Frisk segue para o Núcleo (CORE). É necessário matar 40 monstros contando com o Núcleo.</p>
+                        <p class="lead">No Núcleo (CORE), a chance de aparecer monstros é bem maior. Por isso é necessário matar 40 monstros. O caminho é o mesmo - Mettaton aparece e decide atacar com medo que ele mate seus fãs. Ele se transforma em Mettaton NEO mas morre facilmente.</p>
+                        <p class="lead">Depois o protagonista vai em direção ao Castelo. Flowey te recebe confundindo você com Chara. Ele conta de como foi sua experiência ao se tornar uma flor e que ele não tinha emoções, depois Frisk se encontra com Sans que quer vingar a morte do irmão. Os ataques deles são considerados os mais difíceis porem seguem um padrão, o ataque final dele é o especial onde ele não ataca nada e ambos ficam presos no jogo para sempre, ele acaba se cansando e Frisk aproveita e o mata. Logo depois Frisk encontra Asgore e o mata com a ajuda de Flowey, ela estava muito assustada com medo de morrer e isso acontece.</p>
+                        <p class="lead">No Final da Rota Genocida Chara aparece e diz que quando o personagem Ganhava Ouro, EXP, Love, HP toda a sensação era ela, depois ela pergunta se você quer apagar, se escolher que sim, ela apaga, se escolher que não ela diz que você não tem opção e então te dá um jumpscare com uma cara aterrorizante, até que acontece o mesmo que ele escolher que sim, ou seja, ela te dá um "ataque" e a tela fica cheia de 9s. Caso o jogador desejar voltar Chara irá pedir sua alma em troca do Reset.</p>
+                    </div>
+                </div>
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-12">
+                    <img src="assets/img/genocida.jpg" alt="genocida" class="rounded">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron jumbotron-fluid" id="neutral">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-12">
+                        <h1 class="display-4">Rota Neutral</h1>
+                        <p class="lead">A Rota Neutra ou Rota Normal não e muito diferente da Rota Pacifista, tanto que quando o protagonista faz a Pacifista e mata qualquer monstro a rota automaticamente vira a Neutra.</p>
+                        <p class="lead">As mudanças são que após a luta com Asgore você escolhe matá-lo ou poupá-lo. Logo após isso, Flowey aparece e rouba as almas humanas e vira Ômega Flowey ou Photoshop Flowey. Após matar sua versão mais forte, você tem a opção de matar ou poupar a flor. Caso decida matá-la, ela voltará caso inicie um novo jogo. Se decidir poupá-la, terá de fazê-lo várias vezes, pois o inimigo não compreende seu perdão e pede para ser destruído, chegando a ficar nervoso por não ser morto e supostamente consegue sentir a emoção da tristeza/frustração por concluir que não entende o motivo por ser perdoado e foge. Logo após, o jogador deve passar pela barreira e Frisk esquece os monstros no Subsolo.</p>
+                        <p class="lead">No final, Sans acaba fazendo uma ligação para o jogador relatando os acontecimentos depois de sua saída do subsolo, e após conversar com vários amigos (caso não tenha os matado), a ligação se encerra. Uma curiosidade é que Toriel não conversa com o jogador nessa ligação, seja por estar morta, seja por mesmo viva, não saber que é o jogador que está na linha. O próprio Sans afirma que caso a amiga soubesse com quem estavam falando, esta ficaria no telefone por, no mínimo, algumas horas.</p>
+                        <p class="lead">Sempre que um personagem é morto, a ligação é diferente, assim como o julgamento de Sans.</p>
+                    </div>
+                </div>
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-12">
+                    <img src="assets/img/neutral.jpg" alt="neutral" class="rounded">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/Jumbotron-->
+
+        <!--Footer-->
+        <hr>
+        <footer>
+            <div class="container">
+                <div class= "row justify-content-md-center align-items-center m-3">
+                    <div class="col-md-auto">
+                        <a href="https://store.steampowered.com/app/391540/Undertale/" target="_blank">
+                            <img class="tm-social p-30" src="assets/img/steam.png" alt="Logo da Steam">
+                        </a>
+                    </div>
+                    <div class="col-md-auto">
+                        <a href="https://store.steampowered.com/app/391540/Undertale/" class="btn btn-outline-primary" target="_blank">
+                            Clique aqui para comprar o jogo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--/Footer-->
+
+        <!-- JavaScript (Opcional) -->
+        <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>
